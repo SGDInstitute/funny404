@@ -1,0 +1,17 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    url:
+        label: URL
+        type: text
+        searchable: true
+        sortable: true
+    new_tab:
+        label: 'Open in new tab'
+        type: switch
+        default: 'No'
+        searchable: true
+        sortable: true

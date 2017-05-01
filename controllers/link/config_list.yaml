@@ -1,0 +1,11 @@
+list: $/sgdinstitute/funny404/models/link/columns.yaml
+modelClass: SGDInstitute\Funny404\Models\Link
+title: Link
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'sgdinstitute/funny404/link/update/:id'

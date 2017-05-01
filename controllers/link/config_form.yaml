@@ -1,0 +1,10 @@
+name: Link
+form: $/sgdinstitute/funny404/models/link/fields.yaml
+modelClass: SGDInstitute\Funny404\Models\Link
+defaultRedirect: sgdinstitute/funny404/link
+create:
+    redirect: 'sgdinstitute/funny404/link/update/:id'
+    redirectClose: sgdinstitute/funny404/link
+update:
+    redirect: sgdinstitute/funny404/link
+    redirectClose: sgdinstitute/funny404/link

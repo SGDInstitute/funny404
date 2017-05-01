@@ -1,0 +1,5 @@
+title: Message
+modelClass: SGDInstitute\Funny404\Models\Message
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

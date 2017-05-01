@@ -1,0 +1,13 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    links:
+        label: Links
+        type: text
+        searchable: true
+        sortable: true
+        relation: links
+        valueFrom: title

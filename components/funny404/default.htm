@@ -1,0 +1,29 @@
+{% set message = __SELF__.message %}
+
+<div class="row text-center {% if message.featured_image.count %}row-eq-height{% endif %}">
+    {% if message.featured_image.count %}
+        <div class="col-md-9 v-align h-align">
+    {% endif %}
+    <div class="funny">
+
+        <h1>{{ message.title }}</h1>
+        {{ message.body|raw }}
+
+        <ul class="list-inline">
+            {% for link in message.links %}
+            <li><a href="{{ link.url }}" {% if link.new_tab %}target="_blank" {% endif %}>{{ link.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if message.featured_image.count %}
+        </div>
+    <div class="col-md-3">
+        <img data-src="{{ message.featured_image.filename }}"
+             src="{{ message.featured_image.path }}"
+             alt="{{ message.featured_image.description }}"
+             style="max-width: 100%" />
+    </div>
+    {% endif %}
+</div>

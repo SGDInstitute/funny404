@@ -1,0 +1,20 @@
+plugin:
+    name: 'sgdinstitute.funny404::lang.plugin.name'
+    description: 'sgdinstitute.funny404::lang.plugin.description'
+    author: 'SGD Institute'
+    icon: oc-icon-ambulance
+    homepage: ''
+navigation:
+    funny404:
+        label: 'sgdinstitute.funny404::lang.plugin.name'
+        url: sgdinstitute/funny404/message
+        icon: icon-ambulance
+        sideMenu:
+            messages:
+                label: Messages
+                url: sgdinstitute/funny404/message
+                icon: icon-asterisk
+            links:
+                label: Links
+                url: sgdinstitute/funny404/link
+                icon: icon-at

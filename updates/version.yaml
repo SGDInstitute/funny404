@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table sgdinstitute_funny404_messages'
+    - builder_table_create_sgdinstitute_funny404_messages.php
+1.0.3:
+    - 'Created table sgdinstitute_funny404_links'
+    - builder_table_create_sgdinstitute_funny404_links.php
+1.0.4:
+    - 'Created table sgdinstitute_funny404_messages_links'
+    - builder_table_create_sgdinstitute_funny404_messages_links.php
+1.0.5:
+    - 'Updated table sgdinstitute_funny404_links'
+    - builder_table_update_sgdinstitute_funny404_links.php

@@ -1,0 +1,10 @@
+name: Message
+form: $/sgdinstitute/funny404/models/message/fields.yaml
+modelClass: SGDInstitute\Funny404\Models\Message
+defaultRedirect: sgdinstitute/funny404/message
+create:
+    redirect: 'sgdinstitute/funny404/message/update/:id'
+    redirectClose: sgdinstitute/funny404/message
+update:
+    redirect: sgdinstitute/funny404/message
+    redirectClose: sgdinstitute/funny404/message

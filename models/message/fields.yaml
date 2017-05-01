@@ -1,0 +1,30 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    featured_image:
+        label: 'Featured Image'
+        span: auto
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
+    body:
+        label: Body
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    links:
+        label: Links
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: url
+        span: auto
+        emptyOption: 'N/A Add some links'
+        type: relation
